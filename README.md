@@ -1,21 +1,27 @@
-# SippetUri
+![Sippet URI](http://sippet.github.io/sippet/public/apple-touch-icon-144-precomposed.png)
+=========
 
-**TODO: Add description**
+[![Build Status](https://travis-ci.org/balena/elixir-sippet-uri.svg)](https://travis-ci.org/balena/elixir-sippet-uri)
+[![Coverage Status](https://coveralls.io/repos/github/balena/elixir-sippet-uri/badge.svg?branch=master)](https://coveralls.io/github/balena/elixir-sippet-uri?branch=master)
+[![Docs Status](https://inch-ci.org/github/balena/elixir-sippet-uri.svg?branch=master)](http://inch-ci.org/github/balena/elixir-sippet-uri)
+[![Hex version](https://img.shields.io/hexpm/v/sippet_uri.svg "Hex version")](https://hex.pm/packages/sippet_uri)
+[![Hex.pm](https://img.shields.io/hexpm/l/sippet_uri.svg "BSD Licensed")](https://github.com/balena/elixir-sippet-uri/blob/master/LICENSE)
+[![Code Triagers Badge](https://www.codetriage.com/balena/elixir-sippet-uri/badges/users.svg)](https://www.codetriage.com/balena/elixir-sippet-uri)
+
+This is a simple SIP-URI parser fully compatible with RFC 3261.
+
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `sippet_uri` to your list of dependencies in `mix.exs`:
+The package can be installed from [Hex](https://hex.pm/docs/publish) by adding
+`sippet_uri` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [
-    {:sippet_uri, "~> 0.1.0"}
-  ]
+  [{:sippet_uri, "~> 0.1"}]
 end
 ```
+## Copyright
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/sippet_uri](https://hexdocs.pm/sippet_uri).
-
+Copyright (c) 2016-2021 Guilherme Balena Versiani. See [LICENSE](LICENSE) for
+further details.
